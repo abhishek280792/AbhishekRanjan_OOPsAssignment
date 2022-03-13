@@ -22,7 +22,7 @@ public class EmployeeCredentialService {
         return(employee.getFirstName()+employee.getLastName()+"@"+Department.getDepartment()+".greatlearning.com");
     }
     public void showCredentials(String email, char[] generatedPassword){
-        System.out.println("Dear Harshit your generated credentials are as follows");
+        System.out.println("Dear Abhishek your generated credentials are as follows");
         System.out.println("Email ---->"+email);
         System.out.println("Password ---->"+generatedPassword);
     }
